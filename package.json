@@ -1,0 +1,19 @@
+{
+  "name": "ak_portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AJKaufman/AK_Portfolio.git"
+  },
+  "author": "Aidan Kaufman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AJKaufman/AK_Portfolio/issues"
+  },
+  "homepage": "https://github.com/AJKaufman/AK_Portfolio#readme"
+}
