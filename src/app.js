@@ -8,8 +8,14 @@ const PORT = process.env.PORT || process.env.NODE_PORT || 3000;
 const app = express();
 
 app.get("/", (req, res) => {
-  res.sendFile(path.resolve(`${__dirname}`));
+  res.sendFile(path.resolve(`${__dirname}/index.html`));
 });
+
+app.get("/", (req, res) => {
+  res.sendFile(path.resolve(`${__dirname}/about.html`));
+});
+
+// app.set("/about", path.resolve(`${__dirname}/about.html`));
 
 const server = http.createServer(app);
 
