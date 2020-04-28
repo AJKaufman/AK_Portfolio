@@ -8,7 +8,7 @@ const PORT = process.env.PORT || process.env.NODE_PORT || 3000;
 const app = express();
 
 app.get("/", (req, res) => {
-  express.static(path.resolve(`${__dirname}`));
+  express.static(path.resolve(`${__dirname}/index.html`));
 });
 
 // app.set("/about", path.resolve(`${__dirname}/about.html`));
