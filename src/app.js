@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
   res.sendFile(path.resolve(`${__dirname}/index.html`));
 });
 
-app.set("/about.html", path.resolve(`${__dirname}/about.html`));
+app.use("/about.html", path.resolve(`${__dirname}/about.html`));
 
 const server = http.createServer(app);
 
